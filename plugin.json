@@ -7,5 +7,5 @@
     "url": "https://friendsofbotble.com",
     "version": "1.0.0",
     "description": "Block Known Spam IPs",
-    "minimum_core_version": "7.0.0"
+    "minimum_core_version": "7.2.0"
 }

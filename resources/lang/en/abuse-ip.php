@@ -5,7 +5,7 @@ return [
         'title' => 'Abuse IP',
         'description' => 'Manage Whitelist/Blacklist Known Spam IPs.',
         'enable_abuse_ip' => 'Enable Abuse IP',
-        'enable_abuse_ip_helper' => 'Spam IPs is loaded from https://raw.githubusercontent.com/rahulalam31/Laravel-Abuse-IP/main/abuseip.json, you can add an IP to block or whitelist.',
+        'enable_abuse_ip_helper' => 'Spam IPs is loaded from https://raw.githubusercontent.com/rahulalam31/Laravel-Abuse-IP/main/abuseip.json',
         'whitelist_ips' => 'Whitelist IPs',
         'whitelist_ips_placeholder' => 'Add IPs to whitelist',
         'whitelist_ips_helper' => 'Whitelist IPs will be ignored by the Abuse IP feature. Separate IPs by commas.',

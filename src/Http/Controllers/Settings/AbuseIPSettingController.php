@@ -3,8 +3,8 @@
 namespace FriendsOfBotble\AbuseIp\Http\Controllers\Settings;
 
 use Botble\Base\Http\Responses\BaseHttpResponse;
-use FriendsOfBotble\AbuseIp\Forms\Settings\AbuseIPSettingForm;
 use Botble\Setting\Http\Controllers\SettingController;
+use FriendsOfBotble\AbuseIp\Forms\Settings\AbuseIPSettingForm;
 use FriendsOfBotble\AbuseIp\Http\Requests\Settings\AbuseIPSettingRequest;
 
 class AbuseIPSettingController extends SettingController

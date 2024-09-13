@@ -28,12 +28,11 @@ class AbuseIPSettingRequest extends Request
 
     public function rules(): array
     {
-
         return [
             'fob_abuse_ip_enabled' => [new OnOffRule()],
-            'fob_abuse_ip_whitelist_ips' => ['nullable', 'array'],
+            'fob_abuse_ip_whitelist_ips' => ['nullable'],
             'fob_abuse_ip_whitelist_ips.*' => ['required', 'string'],
-            'fob_abuse_ip_blacklist_ips' => ['nullable', 'array'],
+            'fob_abuse_ip_blacklist_ips' => ['nullable'],
             'fob_abuse_ip_blacklist_ips.*' => ['required', 'string'],
         ];
     }

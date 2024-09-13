@@ -41,8 +41,6 @@ class AbuseIP
             return $next($request); // Allow request if IP is whitelisted
         }
 
-        dd($this->blacklistedIPs);
-
         if (in_array($ip, $this->blacklistedIPs) || $this->isInAbuseIP($ip)) {
             abort(403, 'Your IP address has been blocked');
         }
