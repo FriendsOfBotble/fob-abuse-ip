@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfBotble\AbuseIp;
+namespace FriendsOfBotble\AbuseIP;
 
 use Botble\PluginManagement\Abstracts\PluginOperationAbstract;
 use Botble\Setting\Facades\Setting;

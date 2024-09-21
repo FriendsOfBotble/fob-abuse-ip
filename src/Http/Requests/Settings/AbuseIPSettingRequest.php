@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfBotble\AbuseIp\Http\Requests\Settings;
+namespace FriendsOfBotble\AbuseIP\Http\Requests\Settings;
 
 use Botble\Base\Rules\OnOffRule;
 use Botble\Support\Http\Requests\Request;

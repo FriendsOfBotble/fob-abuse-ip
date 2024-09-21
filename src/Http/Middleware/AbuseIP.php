@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfBotble\AbuseIp\Http\Middleware;
+namespace FriendsOfBotble\AbuseIP\Http\Middleware;
 
 use Botble\Base\Facades\AdminHelper;
 use Closure;

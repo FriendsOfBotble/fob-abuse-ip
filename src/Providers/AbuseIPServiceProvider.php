@@ -1,14 +1,14 @@
 <?php
 
-namespace FriendsOfBotble\AbuseIp\Providers;
+namespace FriendsOfBotble\AbuseIP\Providers;
 
 use Botble\Base\Facades\PanelSectionManager;
 use Botble\Base\PanelSections\PanelSectionItem;
 use Botble\Base\Supports\ServiceProvider;
 use Botble\Base\Traits\LoadAndPublishDataTrait;
 use Botble\Setting\PanelSections\SettingOthersPanelSection;
-use FriendsOfBotble\AbuseIp\Commands\UpdateAbuseIps;
-use FriendsOfBotble\AbuseIp\Http\Middleware\AbuseIP;
+use FriendsOfBotble\AbuseIP\Commands\UpdateAbuseIps;
+use FriendsOfBotble\AbuseIP\Http\Middleware\AbuseIP;
 
 class AbuseIPServiceProvider extends ServiceProvider
 {

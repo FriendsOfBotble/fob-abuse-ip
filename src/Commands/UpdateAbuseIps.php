@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfBotble\AbuseIp\Commands;
+namespace FriendsOfBotble\AbuseIP\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Database\QueryException;

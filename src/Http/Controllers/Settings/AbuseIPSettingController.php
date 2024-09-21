@@ -1,11 +1,11 @@
 <?php
 
-namespace FriendsOfBotble\AbuseIp\Http\Controllers\Settings;
+namespace FriendsOfBotble\AbuseIP\Http\Controllers\Settings;
 
 use Botble\Base\Http\Responses\BaseHttpResponse;
 use Botble\Setting\Http\Controllers\SettingController;
-use FriendsOfBotble\AbuseIp\Forms\Settings\AbuseIPSettingForm;
-use FriendsOfBotble\AbuseIp\Http\Requests\Settings\AbuseIPSettingRequest;
+use FriendsOfBotble\AbuseIP\Forms\Settings\AbuseIPSettingForm;
+use FriendsOfBotble\AbuseIP\Http\Requests\Settings\AbuseIPSettingRequest;
 
 class AbuseIPSettingController extends SettingController
 {

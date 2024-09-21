@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfBotble\AbuseIp\Forms\Settings;
+namespace FriendsOfBotble\AbuseIP\Forms\Settings;
 
 use Botble\Base\Facades\Assets;
 use Botble\Base\Forms\FieldOptions\OnOffFieldOption;
@@ -8,7 +8,7 @@ use Botble\Base\Forms\FieldOptions\TextareaFieldOption;
 use Botble\Base\Forms\Fields\OnOffCheckboxField;
 use Botble\Base\Forms\Fields\TextareaField;
 use Botble\Setting\Forms\SettingForm;
-use FriendsOfBotble\AbuseIp\Http\Requests\Settings\AbuseIPSettingRequest;
+use FriendsOfBotble\AbuseIP\Http\Requests\Settings\AbuseIPSettingRequest;
 
 class AbuseIPSettingForm extends SettingForm
 {

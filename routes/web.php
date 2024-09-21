@@ -1,7 +1,7 @@
 <?php
 
 use Botble\Base\Facades\AdminHelper;
-use FriendsOfBotble\AbuseIp\Http\Controllers\Settings\AbuseIPSettingController;
+use FriendsOfBotble\AbuseIP\Http\Controllers\Settings\AbuseIPSettingController;
 use Illuminate\Support\Facades\Route;
 
 AdminHelper::registerRoutes(function () {
